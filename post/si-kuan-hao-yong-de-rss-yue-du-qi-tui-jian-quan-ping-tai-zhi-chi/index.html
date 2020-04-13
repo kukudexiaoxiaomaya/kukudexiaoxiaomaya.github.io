@@ -1,50 +1,86 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-<!-- 必要参数 -->
-<meta charset="utf-8"/>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>四款好用的 RSS 阅读器推荐[全平台支持] | Moe Pony Blog</title>
-<meta name="keywords" content="关键词"/>
-<meta name="description" content="简述"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no"/>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<link rel="shortcut icon" href="favicon.ico">
-<!-- CSS -->
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/mdui.min.css">
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/modify.css">
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/github-gist.min.css">
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/railscasts.min.css">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586768823025">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 </head>
-<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
-<header role="banner">
-    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
-        <div class="mdui-toolbar">
-            <button class="mdui-btn mdui-btn-icon" id="menu" mdui-drawer="{target:'#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></button>
-            <a href="https://kukudexiaoxiaomaya.github.io" class="mdui-typo-headline">Moe Pony Blog</a>
-            <div class="mdui-toolbar-spacer"></div>
-            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Moe Pony Blog
         </div>
     </div>
-</header>
-
-<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
-    <ul class="mdui-list">
-        <a href="/" class="menu"><li class="mdui-list-item mdui-ripple">首页</li></a>
-        <a href="/archives" class="menu"><li class="mdui-list-item mdui-ripple">归档</li></a>
-        
-        <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread"><li class="mdui-list-item mdui-ripple">主题主页</li></a>
-    </ul>
-</nav>
-
-
-<main class="mdui-container mdui-typo mdui-m-t-2">
-    <section class="mdui-card">
-        
-        <div class="mdui-card-primary">
-            <div class="mdui-card-primary-title">四款好用的 RSS 阅读器推荐[全平台支持]</div>
-            <div class="mdui-card-primary-subtitle">发布于 2020-04-13，包含标签 。</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
         </div>
-        <div class="mdui-card-content"><p>前言<br>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    四款好用的 RSS 阅读器推荐[全平台支持]
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-04-13 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>前言<br>
 RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。</p>
 <p>我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的网站聚合在一起，集中查看，不用再逐个打开了，更方便高效。</p>
 <p>然而挑选一款好的 RSS 阅读器可不容易，经常能看到诸如 “哪个RSS阅读器好？现在有什么好用的 RSS 阅读器？……” 之类的问题。</p>
@@ -75,39 +111,54 @@ RSS 阅读器在如今碎片化信息过剩的生活中，我觉得其最大的�
 <p>相比于在网上漫无目的的闲逛，刷微博刷头条打发时间，被动地接受各种资讯，RSS 阅读则是一种主动选择，筛选了内容，更有效率也更方便。</p>
 <p>觉得有帮助的朋友，不妨点个赞再走呗 ╰(￣▽￣)╭ ~</p>
 <p><sub>分享高效、实用、有趣的工具和教程</sub></p>
-</div>
-        <div class="mdui-card-header">
-            <img class="mdui-card-header-avatar" src="https://kukudexiaoxiaomaya.github.io/images/avatar.png">
-            <div class="mdui-card-header-title">Moe Pony Blog</div>
-            <div class="mdui-card-header-subtitle">每天都要萌萌滴</div>
+
+                </div>
+            </article>
         </div>
-    </section>
 
-      
-</main>
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/" class="post-title gt-a-link">
+                    如何更改Gridea主题
+                </a>
+            </div>
+        
 
-<nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
-    
-    <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">如何更改Gridea主题<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
-</nav>
+        
 
-<div class="mdui-m-t-2 mdui-text-center mdui-typo">
-    
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">每天都要萌萌滴</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
 </div>
 
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/jquery.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/mdui.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/modify.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/highlight.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/lightense.min.js"></script>
 <script>
-// 初始化-高亮代码
-hljs.initHighlightingOnLoad();
-// 初始化-文章图片放大
-window.addEventListener('load', function () {
-    Lightense('#post .mdui-card-content img');
-}, false);
+    hljs.initHighlightingOnLoad()
 </script>
 
+
+    </div>
+</div>
 </body>
 </html>
