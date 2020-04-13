@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-13T06:46:39.531Z</updated>
+    <updated>2020-04-13T06:50:22.079Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,4 +10,20 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[食用Gridea5分创建免费github博客]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/">
+        </link>
+        <updated>2020-04-13T06:47:07.000Z</updated>
+        <content type="html"><![CDATA[<p>下载Gridea https://gridea.dev/<br>
+运行Gridea<br>
+创建仓库<br>
+启动 github page<br>
+在配置页面按github情况填写即可<br>
+点击保存<br>
+点击同步<br>
+访问XXXXX.github.io即可</p>
+]]></content>
+    </entry>
 </feed>
