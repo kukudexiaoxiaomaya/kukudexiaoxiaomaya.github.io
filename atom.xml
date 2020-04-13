@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-13T08:26:48.972Z</updated>
+    <updated>2020-04-13T08:30:08.815Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[如何更改Gridea主题]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">
+        </link>
+        <updated>2020-04-13T08:26:51.000Z</updated>
+        <content type="html"><![CDATA[<p>首先打开Gridea官网,点击主题按钮或使用链接跳转 https://gridea.dev/themes/<br>
+选好主题<br>
+推荐使用 git clone 的方式下载到 Gridea 客户端的 theme 目录。方便后期更新升级。<br>
+打开 theme 目录：~/Documents/gridea/themes<br>
+在当前目录执行 https://github.com/Mrcxt/gridea-theme-lemon.git<br>
+重启 Gridea 客户端查看效果</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[食用Gridea5分创建免费github博客]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/</id>
