@@ -1,144 +1,186 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<!-- 必要参数 -->
-<meta charset="utf-8"/>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
 <title>Moe Pony Blog</title>
-<meta name="keywords" content="关键词"/>
-<meta name="description" content="简述"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no"/>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<link rel="shortcut icon" href="favicon.ico">
-<!-- CSS -->
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/mdui.min.css">
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/modify.css">
-</head>
-<body id="index" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
-<header role="banner">
-    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
-        <div class="mdui-toolbar">
-            <button class="mdui-btn mdui-btn-icon" id="menu" mdui-drawer="{target:'#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></button>
-            <a href="https://kukudexiaoxiaomaya.github.io" class="mdui-typo-headline">Moe Pony Blog</a>
-            <div class="mdui-toolbar-spacer"></div>
-            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
-        </div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586784085224">
+<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="每天都要萌萌滴">
+    
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://kukudexiaoxiaomaya.github.io">
+        <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586784085224" class="site-logo">
+        <h1 class="site-title">Moe Pony Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-</header>
-
-<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
-    <ul class="mdui-list">
-        <a href="/" class="menu"><li class="mdui-list-item mdui-ripple">首页</li></a>
-        <a href="/archives" class="menu"><li class="mdui-list-item mdui-ripple">归档</li></a>
+    <div>
+      
         
-        <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread"><li class="mdui-list-item mdui-ripple">主题主页</li></a>
-    </ul>
-</nav>
-
-
-<main class="mdui-m-a-2 mdui-row-xs-1 mdui-row-sm-2 mdui-row-md-3 mdui-row-xl-4 mdui-typo mdui-m-t-2">
-    
-    <section class="mdui-col mdui-m-b-2">
-        <div class="mdui-card">
-            
-            <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title"><a href="https://kukudexiaoxiaomaya.github.io/post/md-yu-fa-he-ji/">md语法合集</a></div>
-                <div class="mdui-card-primary-subtitle">2020-04-13</div>
-            </div>
-            <div class="mdui-card-content">插入链接
-链接文字
-</div>
-        </div>
-    </section>
-
-    <section class="mdui-col mdui-m-b-2">
-        <div class="mdui-card">
-            
-            <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title"><a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">Telegram 各个系统客户端地址</a></div>
-                <div class="mdui-card-primary-subtitle">2020-04-13</div>
-            </div>
-            <div class="mdui-card-content">移动端
-Telegram iOS (App Store):https://itunes.apple.com/app/id686449807
-Telegram X iOS (App Store):https://itunes.apple.co...</div>
-        </div>
-    </section>
-
-    <section class="mdui-col mdui-m-b-2">
-        <div class="mdui-card">
-            
-            <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title"><a href="https://kukudexiaoxiaomaya.github.io/post/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/">四款好用的 RSS 阅读器推荐[全平台支持]</a></div>
-                <div class="mdui-card-primary-subtitle">2020-04-13</div>
-            </div>
-            <div class="mdui-card-content">前言
-RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。
-我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的...</div>
-        </div>
-    </section>
-
-    <section class="mdui-col mdui-m-b-2">
-        <div class="mdui-card">
-            
-            <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title"><a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">如何更改Gridea主题</a></div>
-                <div class="mdui-card-primary-subtitle">2020-04-13</div>
-            </div>
-            <div class="mdui-card-content">首先打开Gridea官网,点击主题按钮或使用链接跳转 https://gridea.dev/themes/
-选好主题
-推荐使用 git clone 的方式下载到 Gridea 客户端的 theme 目录。方便后期更新升级。
-打开 theme...</div>
-        </div>
-    </section>
-
-    <section class="mdui-col mdui-m-b-2">
-        <div class="mdui-card">
-            
-            <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title"><a href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/">食用Gridea5分创建免费github博客</a></div>
-                <div class="mdui-card-primary-subtitle">2020-04-13</div>
-            </div>
-            <div class="mdui-card-content">下载Gridea https://gridea.dev/
-运行Gridea
-创建仓库
-启动 github page
-在配置页面按github情况填写即可
-点击保存
-点击同步
-访问XXXXX.github.io即可
-...</div>
-        </div>
-    </section>
-
-</main>
-
-<nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
-    
-    
-</nav>
-
-<div class="mdui-m-t-2 mdui-text-center mdui-typo">
-    
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      每天都要萌萌滴
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/jquery.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/mdui.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/modify.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/masonry.pkgd.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/imagesloaded.pkgd.min.js"></script>
-<script>
-// 初始化-文章列表页面瀑布流。
-function masonry() {
-    // 初始化 masonry
-    $('.mdui-row-xs-1').masonry({
-        itemSelector: '.mdui-col',
-        horizontalOrder: true
-    });
-}
-masonry()
-$('.mdui-col').imagesLoaded( function() {
-    masonry()
-});
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://kukudexiaoxiaomaya.github.io/post/md-yu-fa-he-ji/">
+                  <h2 class="post-title">md语法合集</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-13
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">
+                  <h2 class="post-title">Telegram 各个系统客户端地址</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-13
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://kukudexiaoxiaomaya.github.io/post/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/">
+                  <h2 class="post-title">四款好用的 RSS 阅读器推荐[全平台支持]</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-13
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">
+                  <h2 class="post-title">如何更改Gridea主题</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-13
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/">
+                  <h2 class="post-title">食用Gridea5分创建免费github博客</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-13
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-</body>
+
+
+
+
+
+  </body>
 </html>
