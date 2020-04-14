@@ -1,127 +1,124 @@
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    四款好用的 RSS 阅读器推荐[全平台支持] | Moe Pony Blog
-</title>
-<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586851626908">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<title>四款好用的 RSS 阅读器推荐[全平台支持] | Moe Pony Blog</title>
+<meta name="description" content="每天都要萌萌滴" />
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico">
 <link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://kukudexiaoxiaomaya.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
-
-        
-            
-                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-                
-
-                    
-                            
-</head>
-
-<body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://kukudexiaoxiaomaya.github.io">
-                <img class="avatar" src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586851626908" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    Moe Pony Blog
-                </h1>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/jquery.min.js"></script>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/aos.js"></script>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/pace.min.js"></script>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/view-image.min.js"></script>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://kukudexiaoxiaomaya.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="前言
+RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。
+我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的..." />
+    <meta name="keywords" content="软件" />
+    <script src="https://kukudexiaoxiaomaya.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://kukudexiaoxiaomaya.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://kukudexiaoxiaomaya.github.io"><img src="\media\images\custom-headerLogo.jpg" alt=""></a>
             </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://kukudexiaoxiaomaya.github.io" class="menu">首页</a></li>
                 
-                    
-                            <li>
-                                <a href="/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://kukudexiaoxiaomaya.github.io/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://t.me/Moepindao" class="menu">
-                                    TG频道
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
+                  <li class="" >
+                    <a href="/" class="menu">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://kukudexiaoxiaomaya.github.io/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://t.me/Moepindao" class="menu">
+                      TG频道
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
         </div>
-    </div>
-</div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1586851786919" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://5b0988e595225.cdn.sohucs.com/images/20171205/4a6a08ed466a437199cb2e8c4d6f9f0b.jpeg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-04-13"><i class="fa fa-calendar"></i><span class="lately">1 天前</span></time>
+              
+              <a href="https://kukudexiaoxiaomaya.github.io/post/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/"> </span>
+              </a>
+              <span id="/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="ctag ctag-0 ctag-rj" aria-label="">软件</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">四款好用的 RSS 阅读器推荐[全平台支持]</h1>
+            </div>
+          </div>
+        </div>  
 
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-detail main-container">
-                <!-- left -->
-                <div id="content" class="main-container-left">
-                    <article class="post i-card">
-                        <h2 class="post-title">
-                            四款好用的 RSS 阅读器推荐[全平台支持]
-                        </h2>
-                        <div class="post-info">
-                            <time class="post-time">2020-04-13</time>
-                            
-                                <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="post-tag i-tag
-                            i-tag-other_1">
-                            #软件
-                        </a>
-                                
-                        </div>
-                        
-                            <div class="post-feature-image" style="background-image: url('https://5b0988e595225.cdn.sohucs.com/images/20171205/4a6a08ed466a437199cb2e8c4d6f9f0b.jpeg')"></div>
-                            
-                                <div class="post-content">
-                                    <p>前言<br>
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>前言<br>
 RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。</p>
 <p>我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的网站聚合在一起，集中查看，不用再逐个打开了，更方便高效。</p>
 <p>然而挑选一款好的 RSS 阅读器可不容易，经常能看到诸如 “哪个RSS阅读器好？现在有什么好用的 RSS 阅读器？……” 之类的问题。</p>
@@ -153,161 +150,212 @@ RSS 阅读器在如今碎片化信息过剩的生活中，我觉得其最大的�
 <p>觉得有帮助的朋友，不妨点个赞再走呗 ╰(￣▽￣)╭ ~</p>
 <p><sub>分享高效、实用、有趣的工具和教程</sub></p>
 
-                                </div>
-                    </article>
-                    <!--  -->
-                    
-                        <div class="next-post">
-                            <div class="next">下一篇</div>
-                            <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">
-                                <h3 class="post-title">
-                                    如何更改Gridea主题
-                                </h3>
-                            </a>
-                        </div>
-                        
-                            <div id="disqus_thread"></div>
-                            <div id="gitalk-container"></div>
                 </div>
-                <!-- middle -->
-                <div class="main-container-middle"></div>
-                <!-- right -->
-                <div id="sidebar" class="main-container-right">
-                    
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586851626908)">
-        </div>
-        <h1 class="id_card-title">
-            Moe Pony Blog
-        </h1>
-        <h2 class="id_card-description">
-            每天都要萌萌滴
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://telegram.org/img/t_logo.png');"></div>
+                 <a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-13">2020-04-13</time>
+                  <h4 class="title white no-margin">Telegram 各个系统客户端地址</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://kukudexiaoxiaomaya.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://gridea.dev/media/images/gridea.jpg');"></div>
+                 <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-13">2020-04-13</time>
+                  <h4 class="title white no-margin">如何更改Gridea主题</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://kukudexiaoxiaomaya.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
             
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+              <div id="comments" class="bg-white hosted ">
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-        </div>
-    </div>
-    
-                                    
-
-                </div>
-
-
-
-
-            </div>
-
-
-            <div class="site-footer">
-  <!--ONESTAT SCRIPTCODE START-->
-<!--
-<span id="span"></span>
-<script type="text/javascript">
-    function runtime(){
-        // 初始时间，日/月/年 时:分:秒
-        X = new Date("10/4/2020 8:32:00");
-        Y = new Date();
-        T = (Y.getTime()-X.getTime());
-        M = 24*60*60*1000;
-        a = T/M;
-        A = Math.floor(a);
-        b = (a-A)*24;
-        B = Math.floor(b);
-        c = (b-B)*60;
-        C = Math.floor((b-B)*60);
-        D = Math.floor((c-C)*60);
-        //信息写入到DIV中
-        span.innerHTML = "本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
-    }
-    setInterval(runtime, 1000);
-</script>
-// Modification of this code is not allowed and will permanently disable your account!
-// Account ID : 623071
-// Website URL: https://kukudexiaoxiaomaya.github.io/
-// Copyright (C) 2002-2007 OneStat.com All Rights Reserved
--->
-<div id="OneStatTag"><table border='0' cellpadding='0' cellspacing='0'><tr><td align='center'>
-<script type="text/javascript">
-<!--
-function OneStat_Pageview()
-{
-    var d=document;
-    var sid="623071";
-    var CONTENTSECTION="";
-    var osp_URL=d.URL;
-    var osp_Title=d.title;
-    var t=new Date();
-    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
-    p+="&url="+escape(osp_URL);
-    p+="&ti="+escape(osp_Title);
-    p+="&section="+escape(CONTENTSECTION);
-    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
-    p+="&tz="+escape(t.getTimezoneOffset());
-    p+="&ch="+escape(t.getHours());
-    p+="&js=1";
-    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
-    if(typeof(screen)=="object"){
-       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
-       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
-    }
-    d.write('<a href="http://www.onestatfree.com/aspx/login.aspx?sid='+sid+'" target=_blank><img id="ONESTAT_TAG" border="0" src="'+p+'" alt="This site tracked by OneStatFree.com. Get your own free site tracker."></'+'a>');
-}
-
-OneStat_Pageview();
-//-->
-</script>
-<noscript>
-<a href="http://www.onestatfree.com"><img border="0" src="http://stat.onestat.com/stat.aspx?tagver=2&amp;sid=623071&amp;js=No&amp;" ALT="web monitoring"></a>
-</noscript>
-</td></tr><tr><td align='center'><div style="COLOR:black;display:none;FONT-FAMILY:'Verdana';"><a href="http://www.onestat.com" style="text-decoration:none;">web monitoring</a><br></div></td></tr></table></div>
-<!--ONESTAT SCRIPTCODE END--> | 
-  <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+<div id="gitalk-container"></div>
+<div class="clear"></div>
 
 <script>
-  hljs.initHighlightingOnLoad()
+  var gitalk = new Gitalk({
+    clientID: 'f9ad04e7e6e89c81ee91',
+    clientSecret: 'ca96ecd7a8cc3e7f70443137a7d5baae7571c25a',
+    repo: 'kukudexiaoxiaomaya.github.io',
+    owner: 'kukudexiaoxiaomaya',
+    admin: ['kukudexiaoxiaomaya'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
 </script>
 
+                
+                
+              </div>
+            
+
+            </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kukudexiaoxiaomaya.github.io/post/ai-dao-ri-wang-zhan-quan-zhan-bian-hui-css-dai-ma/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('\media\images\custom-featureImage.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-14">2020-04-14</time>
+                      <h4 class="title usmall">
+                        <a href="https://kukudexiaoxiaomaya.github.io/post/ai-dao-ri-wang-zhan-quan-zhan-bian-hui-css-dai-ma/">哀悼日网站全站变灰CSS代码</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('\media\images\custom-featureImage.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-14">2020-04-14</time>
+                      <h4 class="title usmall">
+                        <a href="https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/">迅雷9精简版不限速破解版</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kukudexiaoxiaomaya.github.io/post/zui-xiang-xi-de-google-analytics-shi-yong-jiao-cheng/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('\media\images\custom-featureImage.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-14">2020-04-14</time>
+                      <h4 class="title usmall">
+                        <a href="https://kukudexiaoxiaomaya.github.io/post/zui-xiang-xi-de-google-analytics-shi-yong-jiao-cheng/">最详细的Google analytics使用教程</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="ctag ctag-0 ctag-zy" aria-label="">资源</a>
+                    
+                      <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="ctag ctag-1 ctag-rj" aria-label="">软件</a>
+                    
+                      <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="ctag ctag-2 ctag-jc" aria-label="">教程</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://kukudexiaoxiaomaya.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">Moe Pony Blog</a></h4>
+                    <p class="founder">每天都要萌萌滴</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://kukudexiaoxiaomaya.github.io"><img src="\media\images\custom-footerLogo.jpg" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 7 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
+
+        
+
+      
+    <script src="https://kukudexiaoxiaomaya.github.io/media/js/functions-post.js"></script>
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
-    
-        
-            <script>
-    window.onload = function() {
-        var gitalk = new Gitalk({
-            clientID: 'f9ad04e7e6e89c81ee91',
-            clientSecret: 'ca96ecd7a8cc3e7f70443137a7d5baae7571c25a',
-            repo: 'kukudexiaoxiaomaya.github.io',
-            owner: 'kukudexiaoxiaomaya',
-            admin: ['kukudexiaoxiaomaya'],
-            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
-            distractionFreeMode: false // Facebook-like distraction free mode
-        })
-
-        gitalk.render('gitalk-container')
-    }
-</script>
-                
-
-                    
-                                
-</body>
-
+    <!-- end: #wrapper -->
+  </body>
 </html>
