@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony</title>
-    <updated>2020-04-14T08:42:39.828Z</updated>
+    <updated>2020-04-14T09:06:48.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony</rights>
+    <entry>
+        <title type="html"><![CDATA[快速转存GD资源到自己滴GD-无需VPS]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/kuai-su-zhuan-cun-gd-zi-yuan-dao-zi-ji-di-gd-wu-xu-vps/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/kuai-su-zhuan-cun-gd-zi-yuan-dao-zi-ji-di-gd-wu-xu-vps/">
+        </link>
+        <updated>2020-04-14T08:55:31.000Z</updated>
+        <content type="html"><![CDATA[<p>首先我先找一个GD文件<br>
+<img src="https://i.gyazo.com/4b2c308bdb6764a36537cb567ee7622b.png" alt="avatar" loading="lazy"></p>
+<p>打开 https://gsuitetips.com/<br>
+<img src="https://i.gyazo.com/546d2ee4bafc7cf1a7f0e4521dc7f4cd.jpg" alt="avatar" loading="lazy"></p>
+<p>选择谷歌登录<br>
+<img src="https://i.gyazo.com/4412faf3540137a365179b491a9d67ff.png" alt="avatar" loading="lazy"></p>
+<p>在这个位置找到复制<br>
+<img src="https://i.gyazo.com/af59585effc92270530d03691de9bdeb.png" alt="avatar" loading="lazy"><br>
+再次登录<br>
+<img src="https://i.gyazo.com/36f8eeb14d5daaac1da64f36a92a6d17.png" alt="avatar" loading="lazy"></p>
+<p>选择允许即可<br>
+<img src="https://i.gyazo.com/8a013441d6e21a92b8ac826c7dd252f6.png" alt="avatar" loading="lazy"></p>
+<p>回到界面,第一个选择分享给我的<br>
+<img src="https://i.gyazo.com/c4d201c56fe65e63795809db18cd2523.png" alt="avatar" loading="lazy"></p>
+<p>第二个,选择你要存的位置<br>
+<img src="https://i.gyazo.com/d8f25c03c20146f18cdb72815da9d80f.png" alt="avatar" loading="lazy"></p>
+<p>等待文件复制成功（正在等）<br>
+<img src="https://i.gyazo.com/21fb7a04e436838e6958e79fb991bf4d.png" alt="avatar" loading="lazy"></p>
+<p>显示Done表示完毕（速度大约1分）<br>
+<img src="https://i.gyazo.com/0de72ef4b75697dcc8eb1b13f7174b29.png" alt="avatar" loading="lazy"></p>
+<p>效果图<br>
+<img src="https://i.gyazo.com/6aad369a72f5e720a5ed0cefd1227f24.png" alt="avatar" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[班迪录屏破解版 v4.14.1413中文版]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/ban-di-lu-ping-po-jie-ban-v4141413-zhong-wen-ban/</id>
