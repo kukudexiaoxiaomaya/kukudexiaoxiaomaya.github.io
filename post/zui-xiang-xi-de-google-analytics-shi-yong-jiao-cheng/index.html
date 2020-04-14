@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>最详细的Google analytics使用教程 | Moe Pony Blog</title>
+<meta name="description" content="每天都要萌萌滴">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586830683656">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://kukudexiaoxiaomaya.github.io">
+        <img class="avatar" src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586830683656" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://kukudexiaoxiaomaya.github.io">
+        <h1 class="site-title">Moe Pony Blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://t.me/Moepindao" class="menu purple-link">
+            TG频道
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">最详细的Google analytics使用教程</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-04-14</span>
+            
+          </div>
+          <div class="post-content">
+            <p>如果你的网站是面向老外的，那么一定要安装google analytics，因为它可以很详细的记录你网站的访客以及他们的行为等等，让你可以更加清楚自己的网站的流量来源。<br>
+这篇Google analytics教程，我和大家分享一下它是如何安装，使用的。<br>
+Google analytics是什么<br>
+简单的说它是谷歌推出的服务于广大站长的一款统计工具，它可以详细的让你知道很多数据，例如：<br>
+那些国家和地区的人访问了你网站<br>
+那些网站页面是最受欢迎的<br>
+网站的流量来源有哪些<br>
+每个访客的停留时间是多少<br>
+网站访客的年龄段分布<br>
+访客是通过什么设备（pc或者移动端）的<br>
+上面这些只是它众多功能里面的几点，我们也可以初步的知道GA是什么以及它强大的功能。<br>
+Google analytics使用方法<br>
+我们接着来说下Google analytics如何安装和使用方法。<br>
+首先打开：https://analytics.google.com<br>
+点击注册，<br>
+账号名称：可以随便写一个<br>
+网站名称：写你自己网站的名字就可以了<br>
+网站网址：输入你网站的网址<br>
+行业类别：选择一个行业<br>
+报告时区：选择中国，这样我们就可以实时的看到统计数据。如果选择其他国家，跟国内有时差，报告时间看着会比较别扭。<br>
+接着进行下一步，获取追踪ID。<br>
+我们可以看到它会要求你安装一段代码在你每个网页的<head></head>之间。<br>
+说到这里可能很多人就会懵逼了，每个网页的都要安装吗？这怎么搞？<br>
+其实不然，我下面以Wordpress网站为例来说明下如何安装。<br>
+首先登入你wordpress网站后台，找到外观（appearance），点击主题编辑（Theme Editor）。<br>
+找到header.php文件，然后把在google analytics复制的代码，黏贴在<head>的下方就可以了，然后更新下文件。<br>
+因为header.php是你网站的每个网页的头部文件，所以把代码放在这里面，就相当于放在了每个网页。<br>
+这样就安装成功了，你可以回到Google analytics刷新下，当有访客访问你的网站，就可以用数据显示了。<br>
+如何玩转google analytics<br>
+其实google analytics除了可以让我们查看访客的行为，流量来源，停留时间等还有其他很多的重要功能，只是一般人用的比较少。如果你想玩转google analytics，那么你必须要知道如下：<br>
+目标的设置<br>
+自定义报告<br>
+过滤器的应用<br>
+热力图<br>
+实线追踪<br>
+上面也只是多个高级功能里面的几个，下面我就以目标的设置来详细的说下：<br>
+点击左下角的“管理设置”，然后点击“目标”，“添加新目标”。<br>
+选择“自定义”，<br>
+可以看到，你可以追踪四种类型的目标。<br>
+目标网址：如果你是做电商的，那么你可以把结账页面或者加入购物车页面输入，那么每当有人到达这两个页面，你的GA里面就可以统计到。<br>
+时长：你可以设置时间，这个功能同样对做电商的人很有帮助，你可以利用它对浏览过你网站时间超过3分钟（具体时间自己设置）的人群进行再次营销。<br>
+每次会话的浏览页数/屏幕数：你同样可以利用它对浏览过你网站页数（具体页数自己设置）的人进行再次营销。<br>
+事件：你可以设置特定目标，例如播放视频，或者在线联系等等。<br>
+上面这几个对于跑谷歌adwords来说是特别的重要的，你可以利用筛选出高质量的潜在用户，然后进行二次广告投放。<br>
+这仅仅只是一个“目标”的设置，我们可以看到GA其实还有很多强大的功能有待我们去研究。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://kukudexiaoxiaomaya.github.io/post/gu-ge-jing-xiang-zhan/">
+              <h3 class="post-title">
+                下一篇：谷歌镜像站
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">每天都要萌萌滴</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+   | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'f9ad04e7e6e89c81ee91',
+        clientSecret: 'ca96ecd7a8cc3e7f70443137a7d5baae7571c25a',
+        repo: 'kukudexiaoxiaomaya.github.io',
+        owner: 'kukudexiaoxiaomaya',
+        admin: ['kukudexiaoxiaomaya'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
