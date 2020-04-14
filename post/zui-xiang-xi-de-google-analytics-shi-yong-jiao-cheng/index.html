@@ -4,11 +4,14 @@
     <meta charset="utf-8" >
 
 <title>最详细的Google analytics使用教程 | Moe Pony Blog</title>
+<meta name="description" content="每天都要萌萌滴">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586839061803">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586836492302">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
 
 
@@ -18,124 +21,71 @@
 
   
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
-
-    <meta name="description" content="如果你的网站是面向老外的，那么一定要安装google analytics，因为它可以很详细的记录你网站的访客以及他们的行为等等，让你可以更加清楚自己的网站的流量来源。
-这篇Google analytics教程，我和大家分享一下它是如何安装，..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://kukudexiaoxiaomaya.github.io">
-        <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586836492302" class="site-logo">
-        <h1 class="site-title">Moe Pony Blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="https://t.me/Moepindao" class="site-nav">
-            TG频道
-          </a>
-        
-      
-    </div>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://kukudexiaoxiaomaya.github.io">Moe Pony Blog</a></h3>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      每天都要萌萌滴
-    </div>
-    <div class="site-footer">
-      <!--ONESTAT SCRIPTCODE START-->
-<!--
-// Modification of this code is not allowed and will permanently disable your account!
-// Account ID : 623071
-// Website URL: https://kukudexiaoxiaomaya.github.io/
-// Copyright (C) 2002-2007 OneStat.com All Rights Reserved
--->
-<div id="OneStatTag"><table border='0' cellpadding='0' cellspacing='0'><tr><td align='center'>
-<script type="text/javascript">
-<!--
-function OneStat_Pageview()
-{
-    var d=document;
-    var sid="623071";
-    var CONTENTSECTION="";
-    var osp_URL=d.URL;
-    var osp_Title=d.title;
-    var t=new Date();
-    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
-    p+="&url="+escape(osp_URL);
-    p+="&ti="+escape(osp_Title);
-    p+="&section="+escape(CONTENTSECTION);
-    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
-    p+="&tz="+escape(t.getTimezoneOffset());
-    p+="&ch="+escape(t.getHours());
-    p+="&js=1";
-    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
-    if(typeof(screen)=="object"){
-       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
-       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
-    }
-    d.write('<a href="http://www.onestatfree.com/aspx/login.aspx?sid='+sid+'" target=_blank><img id="ONESTAT_TAG" border="0" src="'+p+'" alt="This site tracked by OneStatFree.com. Get your own free site tracker."></'+'a>');
-}
-
-OneStat_Pageview();
-//-->
-</script>
-<noscript>
-<a href="http://www.onestatfree.com"><img border="0" src="http://stat.onestat.com/stat.aspx?tagver=2&amp;sid=623071&amp;js=No&amp;" ALT="web monitoring"></a>
-</noscript>
-</td></tr><tr><td align='center'><div style="COLOR:black;display:none;FONT-FAMILY:'Verdana';"><a href="http://www.onestat.com" style="text-decoration:none;">web monitoring</a><br></div></td></tr></table></div>
-<!--ONESTAT SCRIPTCODE END--> | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">最详细的Google analytics使用教程</h2>
-            <div class="post-date">2020-04-14</div>
+          <li>
             
-            <div class="post-content" v-pre>
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://t.me/Moepindao" class="menu">
+                TG频道
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>最详细的Google analytics使用教程</h1>
+            <p class="article-meta">
+              2020-04-14
+              
+            </p>
+            
+            <div class="post-content">
               <p>如果你的网站是面向老外的，那么一定要安装google analytics，因为它可以很详细的记录你网站的访客以及他们的行为等等，让你可以更加清楚自己的网站的流量来源。<br>
 这篇Google analytics教程，我和大家分享一下它是如何安装，使用的。<br>
 Google analytics是什么<br>
@@ -183,47 +133,169 @@ Google analytics使用方法<br>
 这仅仅只是一个“目标”的设置，我们可以看到GA其实还有很多强大的功能有待我们去研究。</p>
 
             </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://kukudexiaoxiaomaya.github.io/post/gu-ge-jing-xiang-zhan/">
-                  <h3 class="post-title">
-                    谷歌镜像站
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/gu-ge-jing-xiang-zhan/">
+                <h3 class="post-title">
+                  谷歌镜像站
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586839061803" class="no-responsive avatar">
+    <div class="text-muted">每天都要萌萌滴</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/">迅雷9精简版不限速破解版</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/zui-xiang-xi-de-google-analytics-shi-yong-jiao-cheng/">最详细的Google analytics使用教程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/gu-ge-jing-xiang-zhan/">谷歌镜像站</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">Telegram 各个系统客户端地址</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/">四款好用的 RSS 阅读器推荐[全平台支持]</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">如何更改Gridea主题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/">食用Gridea5分创建免费github博客</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+  <div class="paper">
+    <!--ONESTAT SCRIPTCODE START-->
+<!--
+// Modification of this code is not allowed and will permanently disable your account!
+// Account ID : 623071
+// Website URL: https://kukudexiaoxiaomaya.github.io/
+// Copyright (C) 2002-2007 OneStat.com All Rights Reserved
+-->
+<div id="OneStatTag"><table border='0' cellpadding='0' cellspacing='0'><tr><td align='center'>
+<script type="text/javascript">
+<!--
+function OneStat_Pageview()
+{
+    var d=document;
+    var sid="623071";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+    d.write('<a href="http://www.onestatfree.com/aspx/login.aspx?sid='+sid+'" target=_blank><img id="ONESTAT_TAG" border="0" src="'+p+'" alt="This site tracked by OneStatFree.com. Get your own free site tracker."></'+'a>');
+}
+
+OneStat_Pageview();
+//-->
+</script>
+<noscript>
+<a href="http://www.onestatfree.com"><img border="0" src="http://stat.onestat.com/stat.aspx?tagver=2&amp;sid=623071&amp;js=No&amp;" ALT="web monitoring"></a>
+</noscript>
+</td></tr><tr><td align='center'><div style="COLOR:black;display:none;FONT-FAMILY:'Verdana';"><a href="http://www.onestat.com" style="text-decoration:none;">web monitoring</a><br></div></td></tr></table></div>
+<!--ONESTAT SCRIPTCODE END--> | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
 
 
 

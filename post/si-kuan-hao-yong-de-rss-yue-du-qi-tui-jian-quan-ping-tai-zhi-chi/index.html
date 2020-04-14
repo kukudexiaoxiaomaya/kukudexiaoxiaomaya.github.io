@@ -4,11 +4,14 @@
     <meta charset="utf-8" >
 
 <title>四款好用的 RSS 阅读器推荐[全平台支持] | Moe Pony Blog</title>
+<meta name="description" content="每天都要萌萌滴">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586839061803">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586836492302">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
 
 
@@ -18,54 +21,135 @@
 
   
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
-
-    <meta name="description" content="前言
-RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。
-我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://kukudexiaoxiaomaya.github.io">
-        <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586836492302" class="site-logo">
-        <h1 class="site-title">Moe Pony Blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://kukudexiaoxiaomaya.github.io">Moe Pony Blog</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="site-nav">
-            首页
-          </a>
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
+          <li>
+            
+              <a href="https://t.me/Moepindao" class="menu">
+                TG频道
+              </a>
+            
+          </li>
         
-      
-        
-          <a href="https://t.me/Moepindao" class="site-nav">
-            TG频道
-          </a>
-        
-      
+      </ul>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>四款好用的 RSS 阅读器推荐[全平台支持]</h1>
+            <p class="article-meta">
+              2020-04-13
+              
+            </p>
+            
+            <div class="post-content">
+              <p>前言<br>
+RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。</p>
+<p>我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的网站聚合在一起，集中查看，不用再逐个打开了，更方便高效。</p>
+<p>然而挑选一款好的 RSS 阅读器可不容易，经常能看到诸如 “哪个RSS阅读器好？现在有什么好用的 RSS 阅读器？……” 之类的问题。</p>
+<p>下面就推荐四款优秀的 RSS 阅读器给大家，包括 Win、Android、iOS、Mac 都可以使用。</p>
+<p>:）选择困难症也不用发愁了~</p>
+<p>RSS阅读器推荐<br>
+一览阅读<br>
+官网：www.yilan.io<br>
+平台：iOS，Android，Kindle，Web<br>
+国内服务，速度快，中文资源丰富，全平台支持。界面和使用体验也不错，适合国内使用。</p>
+<p>但客户端最近更新时间是 16 年╮(╯▽╰)╭，我这里用起来倒是没问题。（久未更新，客户端有故障的话可以使用 Web 版）</p>
+<p>InoReader<br>
+官网：www.inoreader.com<br>
+平台：Android，iOS，Web<br>
+最优秀的安卓端 RSS 阅读器！界面整齐清爽，功能齐全，对国内外源支持都很好。</p>
+<p>不过毕竟国外的，国内速度一般，其它没啥槽点。推荐给能访问外网，或者对速度要求一般的用户。</p>
+<p>irreader<br>
+官网：irreader.netqon.com<br>
+平台：Win、Mac<br>
+全能型选手，除了图文，还支持视频和播客订阅。界面划分为源列表、文章列表和内容区三栏式布局。</p>
+<p>最强大的是自定义订阅功能，可以手动添加无 RSS 源的网站，并指定订阅规则和内容，如 豆瓣某组、B站某Up 等。</p>
+<p>Reeder 3<br>
+官网：reederapp.com<br>
+平台：iOS、Mac<br>
+老牌 RSS 阅读器，iOS 和 Mac 最佳，“没有之一”，目前免费中。</p>
+<p>结语<br>
+RSS 阅读器在如今碎片化信息过剩的生活中，我觉得其最大的魅力就是让我们可以只关注自己感兴趣的内容。把感兴趣的内容聚合在一起，每天集中查看一次更新，就能获得需要的信息。</p>
+<p>相比于在网上漫无目的的闲逛，刷微博刷头条打发时间，被动地接受各种资讯，RSS 阅读则是一种主动选择，筛选了内容，更有效率也更方便。</p>
+<p>觉得有帮助的朋友，不妨点个赞再走呗 ╰(￣▽￣)╭ ~</p>
+<p><sub>分享高效、实用、有趣的工具和教程</sub></p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">
+                <h3 class="post-title">
+                  如何更改Gridea主题
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586839061803" class="no-responsive avatar">
+    <div class="text-muted">每天都要萌萌滴</div>
     <div class="social-container">
       
         
@@ -79,11 +163,69 @@ RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把�
         
       
     </div>
-    <div class="site-description">
-      每天都要萌萌滴
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
     </div>
-    <div class="site-footer">
-      <!--ONESTAT SCRIPTCODE START-->
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/">迅雷9精简版不限速破解版</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/zui-xiang-xi-de-google-analytics-shi-yong-jiao-cheng/">最详细的Google analytics使用教程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/gu-ge-jing-xiang-zhan/">谷歌镜像站</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">Telegram 各个系统客户端地址</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/">四款好用的 RSS 阅读器推荐[全平台支持]</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">如何更改Gridea主题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/">食用Gridea5分创建免费github博客</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+  <div class="paper">
+    <!--ONESTAT SCRIPTCODE START-->
 <!--
 // Modification of this code is not allowed and will permanently disable your account!
 // Account ID : 623071
@@ -125,92 +267,21 @@ OneStat_Pageview();
 </noscript>
 </td></tr><tr><td align='center'><div style="COLOR:black;display:none;FONT-FAMILY:'Verdana';"><a href="http://www.onestat.com" style="text-decoration:none;">web monitoring</a><br></div></td></tr></table></div>
 <!--ONESTAT SCRIPTCODE END--> | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
   </div>
 </div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">四款好用的 RSS 阅读器推荐[全平台支持]</h2>
-            <div class="post-date">2020-04-13</div>
-            
-            <div class="post-content" v-pre>
-              <p>前言<br>
-RSS 的全称是 Really Simple Syndication，“简易信息聚合”。它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。</p>
-<p>我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的网站聚合在一起，集中查看，不用再逐个打开了，更方便高效。</p>
-<p>然而挑选一款好的 RSS 阅读器可不容易，经常能看到诸如 “哪个RSS阅读器好？现在有什么好用的 RSS 阅读器？……” 之类的问题。</p>
-<p>下面就推荐四款优秀的 RSS 阅读器给大家，包括 Win、Android、iOS、Mac 都可以使用。</p>
-<p>:）选择困难症也不用发愁了~</p>
-<p>RSS阅读器推荐<br>
-一览阅读<br>
-官网：www.yilan.io<br>
-平台：iOS，Android，Kindle，Web<br>
-国内服务，速度快，中文资源丰富，全平台支持。界面和使用体验也不错，适合国内使用。</p>
-<p>但客户端最近更新时间是 16 年╮(╯▽╰)╭，我这里用起来倒是没问题。（久未更新，客户端有故障的话可以使用 Web 版）</p>
-<p>InoReader<br>
-官网：www.inoreader.com<br>
-平台：Android，iOS，Web<br>
-最优秀的安卓端 RSS 阅读器！界面整齐清爽，功能齐全，对国内外源支持都很好。</p>
-<p>不过毕竟国外的，国内速度一般，其它没啥槽点。推荐给能访问外网，或者对速度要求一般的用户。</p>
-<p>irreader<br>
-官网：irreader.netqon.com<br>
-平台：Win、Mac<br>
-全能型选手，除了图文，还支持视频和播客订阅。界面划分为源列表、文章列表和内容区三栏式布局。</p>
-<p>最强大的是自定义订阅功能，可以手动添加无 RSS 源的网站，并指定订阅规则和内容，如 豆瓣某组、B站某Up 等。</p>
-<p>Reeder 3<br>
-官网：reederapp.com<br>
-平台：iOS、Mac<br>
-老牌 RSS 阅读器，iOS 和 Mac 最佳，“没有之一”，目前免费中。</p>
-<p>结语<br>
-RSS 阅读器在如今碎片化信息过剩的生活中，我觉得其最大的魅力就是让我们可以只关注自己感兴趣的内容。把感兴趣的内容聚合在一起，每天集中查看一次更新，就能获得需要的信息。</p>
-<p>相比于在网上漫无目的的闲逛，刷微博刷头条打发时间，被动地接受各种资讯，RSS 阅读则是一种主动选择，筛选了内容，更有效率也更方便。</p>
-<p>觉得有帮助的朋友，不妨点个赞再走呗 ╰(￣▽￣)╭ ~</p>
-<p><sub>分享高效、实用、有趣的工具和教程</sub></p>
-
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">
-                  <h3 class="post-title">
-                    如何更改Gridea主题
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
 
 
 
