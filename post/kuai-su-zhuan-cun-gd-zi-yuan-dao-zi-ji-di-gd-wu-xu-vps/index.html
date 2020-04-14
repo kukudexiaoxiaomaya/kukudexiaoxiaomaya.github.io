@@ -1,27 +1,16 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-  <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?aa2893e1ad66929dcde3fbb331b6d72a";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>快速转存GD资源到自己滴GD-无需VPS | Moe Pony Blog</title>
 <meta name="description" content="每天都要萌萌滴">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586863489294">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586863286258">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
 
@@ -32,10 +21,10 @@ var _hmt = _hmt || [];
 
   
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161212496-4"></script>
 <script>
@@ -49,71 +38,74 @@ var _hmt = _hmt || [];
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://kukudexiaoxiaomaya.github.io">
-        <img class="avatar" src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586863286258" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://kukudexiaoxiaomaya.github.io">
-        <h1 class="site-title">Moe Pony Blog</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://kukudexiaoxiaomaya.github.io">Moe Pony Blog</a></h3>
   </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="https://kukudexiaoxiaomaya.github.io" class="menu purple-link">
-            主页(＾－＾)V
-          </a>
-        
-      
-        
-          <a href="https://kukudexiaoxiaomaya.github.io/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="https://t.me/Moepindao" class="menu purple-link">
-            TG频道
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://lh3.googleusercontent.com/proxy/AkPgCaQ4AmEOBigngQZd4kED2iDpj6m83m6q8tTXPHeIUGag6xu9GFlabCSSUdhStUaJeJAvkPci_zgk45fbMkJmWZh-plr2CnHD5XED')">
-            </div>
-          
-          <h2 class="post-title">快速转存GD资源到自己滴GD-无需VPS</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-04-14</span>
+          <li>
             
-          </div>
-          <div class="post-content">
-            <p>首先我先找一个GD文件<br>
+              <a href="https://kukudexiaoxiaomaya.github.io" class="menu">
+                主页(＾－＾)V
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://kukudexiaoxiaomaya.github.io/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://t.me/Moepindao" class="menu">
+                TG频道
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>快速转存GD资源到自己滴GD-无需VPS</h1>
+            <p class="article-meta">
+              2020-04-14
+              
+            </p>
+            
+              <img src="https://lh3.googleusercontent.com/proxy/AkPgCaQ4AmEOBigngQZd4kED2iDpj6m83m6q8tTXPHeIUGag6xu9GFlabCSSUdhStUaJeJAvkPci_zgk45fbMkJmWZh-plr2CnHD5XED" alt="快速转存GD资源到自己滴GD-无需VPS">
+            
+            <div class="post-content">
+              <p>首先我先找一个GD文件<br>
 <img src="https://i.gyazo.com/4b2c308bdb6764a36537cb567ee7622b.png" alt="avatar" loading="lazy"></p>
 <p>打开 https://gsuitetips.com/<br>
 <img src="https://i.gyazo.com/546d2ee4bafc7cf1a7f0e4521dc7f4cd.jpg" alt="avatar" loading="lazy"></p>
@@ -136,58 +128,163 @@ var _hmt = _hmt || [];
 <p>效果图<br>
 <img src="https://i.gyazo.com/6aad369a72f5e720a5ed0cefd1227f24.png" alt="avatar" loading="lazy"></p>
 
-          </div>
+            </div>
+          </article>
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://kukudexiaoxiaomaya.github.io/post/ban-di-lu-ping-po-jie-ban-v4141413-zhong-wen-ban/">
-              <h3 class="post-title">
-                下一篇：班迪录屏破解版 v4.14.1413中文版
-              </h3>
-            </a>
-          </div>
+        <div class="paper" data-aos="fade-in">
           
+            <div class="next-post">
+              <div class="next">
+                让我康康下一篇
+              </div>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ban-di-lu-ping-po-jie-ban-v4141413-zhong-wen-ban/">
+                <h3 class="post-title">
+                  班迪录屏破解版 v4.14.1413中文版
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
 
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586863489294" class="no-responsive avatar">
+    <div class="text-muted">每天都要萌萌滴</div>
+    <div class="social-container">
       
         
-          <div id="gitalk-container"></div>
+          <a href="https://github.com/kukudexiaoxiaomaya" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
         
-
+      
         
       
-
-      <div class="site-footer">
-  <div class="slogan">每天都要萌萌滴</div>
-  <div class="social-container">
-    
+        
       
-    
+        
       
-    
+        
       
-    
-      
-    
-      
-    
+    </div>
   </div>
-   | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+  <div class="paper">
+    <div class="sidebar-title">
+      这里是最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ding-yue-api-zhuan-huan/">订阅API转换</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/wannaren-le-suo-bing-du-jie-mi-mi-yao/">WannaRen勒索病毒解密密钥</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/kuai-su-zhuan-cun-gd-zi-yuan-dao-zi-ji-di-gd-wu-xu-vps/">快速转存GD资源到自己滴GD-无需VPS</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ban-di-lu-ping-po-jie-ban-v4141413-zhong-wen-ban/">班迪录屏破解版 v4.14.1413中文版</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ai-dao-ri-wang-zhan-quan-zhan-bian-hui-css-dai-ma/">哀悼日网站全站变灰CSS代码</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/">迅雷9精简版不限速破解版</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/zui-xiang-xi-de-google-analytics-shi-yong-jiao-cheng/">最详细的Google analytics使用教程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">Telegram 各个系统客户端地址</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/si-kuan-hao-yong-de-rss-yue-du-qi-tui-jian-quan-ping-tai-zhi-chi/">四款好用的 RSS 阅读器推荐[全平台支持]</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ru-he-geng-gai-gridea-zhu-ti/">如何更改Gridea主题</a>
+            </li>
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签
+    </div>
+    <div class="row">
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="badge success">
+          资源
+        </a>
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="badge ">
+          软件
+        </a>
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="badge secondary">
+          教程
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+     | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
 </div>
 
 
     </div>
-    <script type="application/javascript">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
 
 hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
 </script>
 
