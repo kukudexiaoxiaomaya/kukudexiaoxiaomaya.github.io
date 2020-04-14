@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>如何更改Gridea主题 | Moe Pony Blog</title>
+<title>哀悼日网站全站变灰CSS代码 | Moe Pony Blog</title>
 <meta name="description" content="每天都要萌萌滴">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -79,29 +79,44 @@
       <div class="sm-12 md-8 col">
         <div class="paper">
           <article class="article">
-            <h1>如何更改Gridea主题</h1>
+            <h1>哀悼日网站全站变灰CSS代码</h1>
             <p class="article-meta">
-              2020-04-13
-              
-                <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="badge success">
-                  教程
-                </a>
-              
-                <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="badge ">
-                  软件
-                </a>
+              2020-04-14
               
             </p>
             
-              <img src="https://gridea.dev/media/images/gridea.jpg" alt="如何更改Gridea主题">
-            
             <div class="post-content">
-              <p>首先打开Gridea官网,点击主题按钮或使用链接跳转 https://gridea.dev/themes/<br>
-选好主题<br>
-推荐使用 git clone 的方式下载到 Gridea 客户端的 theme 目录。方便后期更新升级。<br>
-打开 theme 目录：~/Documents/gridea/themes<br>
-在当前目录执行 https://github.com/Mrcxt/gridea-theme-lemon.git<br>
-重启 Gridea 客户端查看效果</p>
+              <p>用纯CSS来实现的。</p>
+<p>filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+如果你想全站变灰，代码如下</p>
+<p>*{<br>
+filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+}<br>
+如果你想只对于网站图片来实现灰度，代码如下</p>
+<p>img{<br>
+filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+}<br>
+如果只想针对部分图片，代码如下</p>
+<p>/<em>这段代码只会对于class位grey的图片</em>/<br>
+img.grey{<br>
+filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+}</p>
 
             </div>
           </article>
@@ -112,9 +127,9 @@
               <div class="next">
                 下一篇
               </div>
-              <a href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/">
+              <a href="https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/">
                 <h3 class="post-title">
-                  食用Gridea5分创建免费github博客
+                  迅雷9精简版不限速破解版
                 </h3>
               </a>
             </div>
@@ -207,7 +222,7 @@
     </div>
     <div class="row">
       
-        <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="badge success">
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="badge secondary">
           资源
         </a>
       
@@ -215,7 +230,7 @@
           软件
         </a>
       
-        <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="badge ">
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="badge warning">
           教程
         </a>
       

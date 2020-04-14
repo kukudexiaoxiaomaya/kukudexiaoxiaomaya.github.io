@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-14T06:06:26.414Z</updated>
+    <updated>2020-04-14T06:26:28.705Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[哀悼日网站全站变灰CSS代码]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/ai-dao-ri-wang-zhan-quan-zhan-bian-hui-css-dai-ma/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/ai-dao-ri-wang-zhan-quan-zhan-bian-hui-css-dai-ma/">
+        </link>
+        <updated>2020-04-14T06:25:36.000Z</updated>
+        <content type="html"><![CDATA[<p>用纯CSS来实现的。</p>
+<p>filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+如果你想全站变灰，代码如下</p>
+<p>*{<br>
+filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+}<br>
+如果你想只对于网站图片来实现灰度，代码如下</p>
+<p>img{<br>
+filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+}<br>
+如果只想针对部分图片，代码如下</p>
+<p>/<em>这段代码只会对于class位grey的图片</em>/<br>
+img.grey{<br>
+filter: grayscale(100%);<br>
+-webkit-filter: grayscale(100%);<br>
+-moz-filter: grayscale(100%);<br>
+-ms-filter: grayscale(100%);<br>
+-o-filter: grayscale(100%);<br>
+}</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[迅雷9精简版不限速破解版]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/xun-lei-9-jing-jian-ban-bu-xian-su-po-jie-ban/</id>
