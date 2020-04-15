@@ -1,28 +1,14 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-  <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?aa2893e1ad66929dcde3fbb331b6d72a";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>最详细的Google analytics使用教程 | Moe Pony Blog</title>
-<meta name="description" content="每天都要萌萌滴">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586871968703">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586911918163">
 <link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
 
 
@@ -33,8 +19,8 @@ var _hmt = _hmt || [];
   
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161212496-4"></script>
@@ -47,83 +33,87 @@ var _hmt = _hmt || [];
 </script>
 
 
+    <meta name="description" content="如果你的网站是面向老外的，那么一定要安装google analytics，因为它可以很详细的记录你网站的访客以及他们的行为等等，让你可以更加清楚自己的网站的流量来源。
+这篇Google analytics教程，我和大家分享一下它是如何安装，..." />
+    <meta name="keywords" content="教程" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://kukudexiaoxiaomaya.github.io">
-        <img class="avatar" src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586871968703" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://kukudexiaoxiaomaya.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://kukudexiaoxiaomaya.github.io">
+        <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586911918163" class="site-logo">
         <h1 class="site-title">Moe Pony Blog</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="https://kukudexiaoxiaomaya.github.io" class="menu purple-link">
+          <a href="https://kukudexiaoxiaomaya.github.io" class="site-nav">
             主页(＾－＾)V
           </a>
         
       
         
-          <a href="https://kukudexiaoxiaomaya.github.io/tags" class="menu purple-link">
+          <a href="https://kukudexiaoxiaomaya.github.io/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="https://t.me/Moepindao" class="menu purple-link">
+          <a href="https://t.me/Moepindao" class="site-nav">
             TG频道
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      每天都要萌萌滴
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://www.sdwebseo.com/wp-content/uploads/2019/01/Google-Analytics.jpg')">
-            </div>
-          
-          <h2 class="post-title">最详细的Google analytics使用教程</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-04-14</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">最详细的Google analytics使用教程</h2>
+            <div class="post-date">2020-04-14</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/">
-                    教程
-                    
-                  </a>
-                
-              </span>
+              <div class="feature-container" style="background-image: url('https://www.sdwebseo.com/wp-content/uploads/2019/01/Google-Analytics.jpg')">
+              </div>
             
-          </div>
-          <div class="post-content">
-            <p>如果你的网站是面向老外的，那么一定要安装google analytics，因为它可以很详细的记录你网站的访客以及他们的行为等等，让你可以更加清楚自己的网站的流量来源。<br>
+            <div class="post-content" v-pre>
+              <p>如果你的网站是面向老外的，那么一定要安装google analytics，因为它可以很详细的记录你网站的访客以及他们的行为等等，让你可以更加清楚自己的网站的流量来源。<br>
 这篇Google analytics教程，我和大家分享一下它是如何安装，使用的。<br>
 Google analytics是什么<br>
 简单的说它是谷歌推出的服务于广大站长的一款统计工具，它可以详细的让你知道很多数据，例如：<br>
@@ -169,51 +159,45 @@ Google analytics使用方法<br>
 上面这几个对于跑谷歌adwords来说是特别的重要的，你可以利用筛选出高质量的潜在用户，然后进行二次广告投放。<br>
 这仅仅只是一个“目标”的设置，我们可以看到GA其实还有很多强大的功能有待我们去研究。</p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="tag">
+                    教程
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">
+                  <h3 class="post-title">
+                    Telegram 各个系统客户端地址
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://kukudexiaoxiaomaya.github.io/post/telegram-ge-ge-xi-tong-ke-hu-duan-di-zhi/">
-              <h3 class="post-title">
-                下一篇：Telegram 各个系统客户端地址
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-        
-          <div id="gitalk-container"></div>
-        
-
-        
-      
-
-      <div class="site-footer">
-  <div class="slogan">每天都要萌萌滴</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-   | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -223,6 +207,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
