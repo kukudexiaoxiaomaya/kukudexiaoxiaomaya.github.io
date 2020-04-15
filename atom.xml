@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-15T04:45:24.742Z</updated>
+    <updated>2020-04-15T04:49:04.080Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -16,8 +16,9 @@
         <link href="https://kukudexiaoxiaomaya.github.io/post/you-lian/">
         </link>
         <updated>2020-04-15T04:41:35.000Z</updated>
-        <content type="html"><![CDATA[<p>小伙伴们</p>
-<p>友链要求<br>
+        <content type="html"><![CDATA[<p>小伙伴们<br>
+<a href="http://www.toje.work/"><img src="https://gamepedia.cursecdn.com/minecraft_zh_gamepedia/thumb/6/66/Grass_Block_JE6_BE2.png/150px-Grass_Block_JE6_BE2.png?version=90cf939215a112493586a9db4467462d" alt="alt text" title="草方块" loading="lazy"></a><br>
+友链要求<br>
 1.不能只有域名,网站404滴<br>
 2.网站不能为.html没有主页滴</p>
 ]]></content>
