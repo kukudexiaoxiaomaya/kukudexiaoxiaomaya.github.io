@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-15T02:59:22.492Z</updated>
+    <updated>2020-04-15T03:33:44.676Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/">
+        </link>
+        <updated>2020-04-15T03:25:35.000Z</updated>
+        <content type="html"><![CDATA[<p>食用链接https://t.me/setlanguage/moewen<br>
+维护进度<br>
+电脑:5<br>
+安卓:0<br>
+安卓X:0<br>
+MAC:0</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020/4/15上午百度网盘SVIP]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/2020415-shang-wu-bai-du-wang-pan-svip/</id>
