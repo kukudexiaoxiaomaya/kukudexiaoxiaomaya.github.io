@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-15T09:06:40.212Z</updated>
+    <updated>2020-04-15T09:08:52.125Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,19 +10,6 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony Blog</rights>
-    <entry>
-        <title type="html"><![CDATA[友链]]></title>
-        <id>https://kukudexiaoxiaomaya.github.io/post/you-lian/</id>
-        <link href="https://kukudexiaoxiaomaya.github.io/post/you-lian/">
-        </link>
-        <updated>2020-04-15T04:41:35.000Z</updated>
-        <content type="html"><![CDATA[<p>小伙伴们<br>
-<a href="http://www.toje.work/"><img src="https://gamepedia.cursecdn.com/minecraft_zh_gamepedia/thumb/6/66/Grass_Block_JE6_BE2.png/150px-Grass_Block_JE6_BE2.png?version=90cf939215a112493586a9db4467462d" alt="alt text" title="草方块" loading="lazy"></a><br>
-友链要求<br>
-1.不能只有域名,网站404滴<br>
-2.网站不能为.html没有主页滴</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[GD资源-海绵宝宝12季]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/gd-zi-yuan-hai-mian-bao-bao-12-ji/</id>
