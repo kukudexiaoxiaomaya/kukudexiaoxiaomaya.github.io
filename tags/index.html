@@ -1,152 +1,270 @@
+<!DOCTYPE html>
 <html>
-      <head>
-        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
-        <meta charset="utf-8">
-        <meta name="referrer" content="never">
-        <title>Moe Pony Blog</title>
-        <link rel="stylesheet" href="https://cdn.staticfile.org/KaTeX/0.11.1/katex.min.css">
-        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
-          <script src="https://kukudexiaoxiaomaya.github.io/media/scripts/mdui.min.js"></script>
-        <link rel="stylesheet" href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css">
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ma+Shan+Zheng&display=swap" rel="stylesheet">
-        <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-        <script src="https://kukudexiaoxiaomaya.github.io/media/scripts/script.js"></script>
-        <script >hljs.initHighlightingOnLoad();</script>
-        
+  <head>
+    <meta charset="utf-8" >
+
+<title>标签列表 | Moe Pony Blog</title>
+<meta name="description" content="每天都要萌萌滴">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://kukudexiaoxiaomaya.github.io/favicon.ico?v=1586928810020">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css">
+
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161212496-4"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'UA-161212496-4');
 </script>
 
-    </head>
-    <body class="mdui-theme-primary-purple mdui-theme-accent-purple">
-        <header class="header mdui-m-b-3">
-                          <button class="mdui-btn daohang mdui-btn-icon mdui-btn-dense mdui-color-theme-500 mdui-ripple yinying mdui-m-t-1 mdui-m-l-1" mdui-menu="{target: '#demo-attr-cascade'}"><i class="mdui-icon material-icons">&#xe5d2;</i></button>
-                <ul class="mdui-menu " id="demo-attr-cascade">
-                
-                        <li class="mdui-menu-item">
-                          <a href="/" class="mdui-ripple">主页(＾－＾)V</a>
-                        </li>
-                
-                        <li class="mdui-menu-item">
-                          <a href="/post/you-lian" class="mdui-ripple">友链(＾－＾)V</a>
-                        </li>
-                
-                        <li class="mdui-menu-item">
-                          <a href="https://t.me/Moepindao" class="mdui-ripple">TG频道(＾－＾)V</a>
-                        </li>
-                
-                        <li class="mdui-menu-item">
-                          <a href="/tags" class="mdui-ripple">标签(＾－＾)V</a>
-                        </li>
-                
-                        <li class="mdui-menu-item">
-                          <a href="/archives" class="mdui-ripple">归档(＾－＾)V</a>
-                        </li>
-                
-                      </ul>
-                      <div class="mdui-text-center">
-                      <div class="mdui-typo-display-4 mdui-m-b-3 index-title">Moe Pony Blog</div>
-                      <div class="mdui-typo-headline">每天都要萌萌滴</div>
-                      </div>
 
-        </header>
-        <div class="mdui-container">
-                <div class="mdui-row">
-                        <div class="mdui-col-md-10 mdui-col-offset-md-1 ">
- 
-                            <div class="mdui-row-md-3 mdui-row-xs-1">
+  </head>
+  <body>
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://kukudexiaoxiaomaya.github.io">Moe Pony Blog</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                主页(＾－＾)V
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/you-lian" class="menu">
+                友链(＾－＾)V
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://t.me/Moepindao" class="menu">
+                TG频道(＾－＾)V
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签(＾－＾)V
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档(＾－＾)V
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 
-                                    <div class="mdui-col mdui-p-a-1">
-                                       <article class="archives-list mdui-shadow-15  mdui-hoverable mdui-color-white ">
-                                           <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/">
-                                           <div class="mdui-p-a-2">
-                                           <div class="mdui-typo-headline mdui-text-truncate index-list-title mdui-m-b-3">资源</div>
-                                           <div class="mdui-typo-title mdui-m-t-1 mdui-text-color-blue-grey-200">共有8篇文章</div>
-                                           </div>
-                                        </a>
-                                       </article> 
-                                    </div>
-
-                                    <div class="mdui-col mdui-p-a-1">
-                                       <article class="archives-list mdui-shadow-15  mdui-hoverable mdui-color-white ">
-                                           <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/">
-                                           <div class="mdui-p-a-2">
-                                           <div class="mdui-typo-headline mdui-text-truncate index-list-title mdui-m-b-3">软件</div>
-                                           <div class="mdui-typo-title mdui-m-t-1 mdui-text-color-blue-grey-200">共有7篇文章</div>
-                                           </div>
-                                        </a>
-                                       </article> 
-                                    </div>
-
-                                    <div class="mdui-col mdui-p-a-1">
-                                       <article class="archives-list mdui-shadow-15  mdui-hoverable mdui-color-white ">
-                                           <a href="https://kukudexiaoxiaomaya.github.io/tag/xw/">
-                                           <div class="mdui-p-a-2">
-                                           <div class="mdui-typo-headline mdui-text-truncate index-list-title mdui-m-b-3">新闻</div>
-                                           <div class="mdui-typo-title mdui-m-t-1 mdui-text-color-blue-grey-200">共有1篇文章</div>
-                                           </div>
-                                        </a>
-                                       </article> 
-                                    </div>
-
-                                    <div class="mdui-col mdui-p-a-1">
-                                       <article class="archives-list mdui-shadow-15  mdui-hoverable mdui-color-white ">
-                                           <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/">
-                                           <div class="mdui-p-a-2">
-                                           <div class="mdui-typo-headline mdui-text-truncate index-list-title mdui-m-b-3">教程</div>
-                                           <div class="mdui-typo-title mdui-m-t-1 mdui-text-color-blue-grey-200">共有6篇文章</div>
-                                           </div>
-                                        </a>
-                                       </article> 
-                                    </div>
-
-                                  </div>
-                         
-                        </div>
-                 </div>
-          
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <h2 class="tag-list-title">标签列表</h2>
+          <div class="row tags-container">
+            
+              <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="badge secondary">
+                资源
+              </a>
+            
+              <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="badge success">
+                软件
+              </a>
+            
+              <a href="https://kukudexiaoxiaomaya.github.io/tag/xw/" class="badge secondary">
+                新闻
+              </a>
+            
+              <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="badge secondary">
+                教程
+              </a>
+            
+          </div>
         </div>
-        <footer class="footer mdui-m-t-5 mdui-text-center">
-               <nav class="social-links">
-                      <ul>
-                      
-                            	
-                        <li class="social-link"><a href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank"><i class="iconfont icon-rss"></i></a></li>
-                         
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                      </ul>
-                    </nav>
-                  <div class="copyright">
-                      <p></p>
-                  </div>
-              </footer>
-    </body>
+      </div>
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1586928810020" class="no-responsive avatar">
+    <div class="text-muted">每天都要萌萌滴</div>
+    <div class="social-container">
+      
+        
+          <a href="https://github.com/kukudexiaoxiaomaya" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      这里是最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/you-lian/">友链</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/gd-zi-yuan-hai-mian-bao-bao-12-ji/">GD资源-海绵宝宝12季</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/gd-mian-fei/">GD免费团队盘</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/">TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/2020415-shang-wu-bai-du-wang-pan-svip/">2020/4/15上午百度网盘SVIP</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/shi-yong-api-zhuan-huan-ding-yue/">食用API转换订阅</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/wannaren-le-suo-bing-du-jie-mi-mi-yao/">WannaRen勒索病毒作者提供解密密钥</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/kuai-su-zhuan-cun-gd-zi-yuan-dao-zi-ji-di-gd-wu-xu-vps/">快速转存GD资源到自己滴GD-无需VPS</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ban-di-lu-ping-po-jie-ban-v4141413-zhong-wen-ban/">班迪录屏破解版 v4.14.1413中文版</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kukudexiaoxiaomaya.github.io/post/ai-dao-ri-wang-zhan-quan-zhan-bian-hui-css-dai-ma/">哀悼日网站全站变灰CSS代码</a>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签
+    </div>
+    <div class="row">
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="badge warning">
+          资源
+        </a>
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="badge secondary">
+          软件
+        </a>
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/xw/" class="badge ">
+          新闻
+        </a>
+      
+        <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="badge ">
+          教程
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+     | <a class="rss" href="https://kukudexiaoxiaomaya.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+  
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
 </html>
