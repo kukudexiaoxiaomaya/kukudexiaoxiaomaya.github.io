@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony Blog</title>
-    <updated>2020-04-15T23:42:41.321Z</updated>
+    <updated>2020-04-16T05:00:38.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,32 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Evolution Host 免费提供美国4H/4G/80G SSD/1G端口/免费VPS ]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/evolution-host-mian-fei-ti-gong-mei-guo-4h4g80g-ssd1g-duan-kou-mian-fei-vps/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/evolution-host-mian-fei-ti-gong-mei-guo-4h4g80g-ssd1g-duan-kou-mian-fei-vps/">
+        </link>
+        <updated>2020-04-16T03:25:46.000Z</updated>
+        <content type="html"><![CDATA[<p>服务商介绍<br>
+Evolution Host 是一家自2012年以来一直存在，并且自2013年以来一直在托管解决方案方面进行交易（以前称为evolutionhost.co.uk）。我们希望每6个月左右为品牌引入新技术，新位置和/或新服务，从而保持与时俱进的吸引力。 我们提供100％专用的KVM资源，具有稳定的CPU时间可用性和高时钟速度。阅读：不进行节流或标记化。我们的VPS特别适合游戏服务器托管，其CPU核心时钟高达5.0Ghz，从而实现了很高的单核性能。高时钟速度对于更传统的工作负载也有好处。<br>
+Evolution Host 最近在lowendbox推出了免费VPS的活动! 无需信用卡！<br>
+博主正在申请，（需要在网站一直挂着 Evolution Host的品牌！）<br>
+免费VPS<br>
+免费VPS配置：<br>
+4Ghz +上的4个CPU内核<br>
+4GB DDR4内存<br>
+80GB SSD或350GB HDD<br>
+1Gb / s端口<br>
+60TB每月传输<br>
+先进的DDoS防护<br>
+Linux或Windows<br>
+欧洲/美国位置<br>
+免费申请<br>
+申请地址： https://evolution-host.com/free-vps.php<br>
+申请要求：我们不接受色情网站的申请。网站的受欢迎程度和相关性将是每个申请人的最大决定因素。如果您认为自己的网站不符合上述规范，请不要担心，我们可以为您提供替代的免费VPS软件包。<br>
+更多：https://lowendbox.com/blog/evolution-host-unique-offer-for-leb-free-enterprise-grade-vps-for-those-who-qualify/</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GD资源-海绵宝宝12季]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/gd-zi-yuan-hai-mian-bao-bao-12-ji/</id>
