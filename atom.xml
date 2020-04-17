@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony</title>
-    <updated>2020-04-17T06:37:07.070Z</updated>
+    <updated>2020-04-17T09:17:41.124Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony</rights>
+    <entry>
+        <title type="html"><![CDATA[Github对接PicGo]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/github-dui-jie-pic/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/github-dui-jie-pic/">
+        </link>
+        <updated>2020-04-17T06:38:35.000Z</updated>
+        <content type="html"><![CDATA[<p>首先打开Github创建一个token（https://github.com/settings/tokens/new）<br>
+<img src="kukudexiaoxiaomaya.github.io/images/20200417165725.png" alt="image text" loading="lazy"><br>
+不建议只选择上传权限</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如优免费图床对接PicGo图床管理工具食用指南]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/ru-you-mian-fei-tu-chuang-dui-jie-picgo-tu-chuang-guan-li-gong-ju-shi-yong-zhi-nan/</id>
