@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony</title>
-    <updated>2020-04-18T01:37:36.262Z</updated>
+    <updated>2020-04-18T01:41:47.507Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony</rights>
+    <entry>
+        <title type="html"><![CDATA[中国疫情地图和全球疫情地图组件，一句话调用]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/zhong-guo-yi-qing-di-tu-he-quan-qiu-yi-qing-di-tu-zu-jian-yi-ju-hua-diao-yong/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/zhong-guo-yi-qing-di-tu-he-quan-qiu-yi-qing-di-tu-zu-jian-yi-ju-hua-diao-yong/">
+        </link>
+        <updated>2020-04-18T01:40:01.000Z</updated>
+        <content type="html"><![CDATA[<p>本疫情地图，实时爬取互联网疫情数据，展示中国疫情地图和世界疫情地图，允许各大网站调用数据。</p>
+<p>首先，分析文章发布在微信公众号了：https://mp.weixin.qq.com/s/JBUIPh6sndBpLmtN5eaETw</p>
+<p>这不讲怎么制作了，可以看上面的链接，下面直接讲怎么WordPress调用。</p>
+<p>使用教程<br>
+WordPress博客，可以直接添加小工具</p>
+<p>调用方法很简单，找到WordPress后台小工具，添加自定义html内容，填入如下代码</p>
+<iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>
+保存即可在前台查看到地图。其他操作无需我们修改，每天自动实时更新。
+<p>可选get参数<br>
+htmlh:网页高度，默认为500<br>
+htmlw:网页最大宽度，默认800<br>
+maph:地图高度，默认400，一般来说使用本参数就行了，大页面可以适当调大本参数<br>
+修改后调用地址例如：https://www.lovestu.com/api/project/cnmapyinqing/obj.php?maph=600</p>
+<p>对于大页面，可以自行修改iframe的宽度，然后设置get地图宽度即可，</p>
+<p>更新日志<br>
+2020.2 更新<br>
+地图界面</p>
+<p>添加详细信息：确诊人数，疑似人数，治愈人数，死亡人数</p>
+<p>2020.3.17更新<br>
+新增全球地图，可以在选项卡切换</p>
+<p>本地图及文章来自https://www.ghpym.com/2020cnyqt.html</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Github对接PicGo]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/github-dui-jie-pic/</id>
