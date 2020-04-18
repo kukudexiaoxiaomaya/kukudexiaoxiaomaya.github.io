@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony</title>
-    <updated>2020-04-18T03:41:01.970Z</updated>
+    <updated>2020-04-18T03:49:06.034Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony</rights>
+    <entry>
+        <title type="html"><![CDATA[hack.chat即免费又开源滴一个在线聊天室]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/hackchat-ji-mian-fei-you-kai-yuan-di-yi-ge-zai-xian-liao-tian-shi/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/hackchat-ji-mian-fei-you-kai-yuan-di-yi-ge-zai-xian-liao-tian-shi/">
+        </link>
+        <updated>2020-04-18T03:46:51.000Z</updated>
+        <content type="html"><![CDATA[<p>来自官网<br>
+Welcome to hack.chat, a minimal, distraction-free chat application.<br>
+Channels are created, joined and shared with the url, create your own channel by changing the text after the question mark.<br>
+If you wanted your channel name to be 'your-channel’: https://hack.chat/?your-channel<br>
+食用方法<br>
+https://hack.chat/你房间名字<br>
+梨子<br>
+https://hack.chat/moeponychat</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GoIndex搭建自己滴NAS]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/goindex-da-jian-zi-ji-di-nas/</id>
