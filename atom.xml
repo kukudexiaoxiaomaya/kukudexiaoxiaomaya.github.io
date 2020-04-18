@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kukudexiaoxiaomaya.github.io</id>
     <title>Moe Pony</title>
-    <updated>2020-04-18T02:57:42.063Z</updated>
+    <updated>2020-04-18T03:41:01.970Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kukudexiaoxiaomaya.github.io"/>
     <link rel="self" href="https://kukudexiaoxiaomaya.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://kukudexiaoxiaomaya.github.io/images/avatar.png</logo>
     <icon>https://kukudexiaoxiaomaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Moe Pony</rights>
+    <entry>
+        <title type="html"><![CDATA[GoIndex搭建自己滴NAS]]></title>
+        <id>https://kukudexiaoxiaomaya.github.io/post/goindex-da-jian-zi-ji-di-nas/</id>
+        <link href="https://kukudexiaoxiaomaya.github.io/post/goindex-da-jian-zi-ji-di-nas/">
+        </link>
+        <updated>2020-04-18T03:07:18.000Z</updated>
+        <content type="html"><![CDATA[<p>视频教程:https://youtu.be/S54e4btzIlI<br>
+首先你需要打开Golndex（https://install.gd.workers.dev）<br>
+获取认证码（https://accounts.google.com/o/oauth2/auth?client_id=202264815644.apps.googleusercontent.com&amp;redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&amp;response_type=code&amp;access_type=offline&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&amp;approval_prompt=auto）<br>
+<a href="https://gyazo.com/c1800f7b4b4eaeb43f71ab4b0f3e4955"><img src="https://i.gyazo.com/c1800f7b4b4eaeb43f71ab4b0f3e4955.png" alt="Image from Gyazo" loading="lazy"></a><br>
+填入<br>
+<a href="https://gyazo.com/c0c40ef347d0074023c85cc112cddd4f"><img src="https://i.gyazo.com/c0c40ef347d0074023c85cc112cddd4f.png" alt="Image from Gyazo" loading="lazy"></a><br>
+让后再CF输入代码（详细请查看视频教程）<br>
+效果图（Blog上方Cloud）<br>
+<a href="https://gyazo.com/d9ef5111bd2410f11f5eccb5e3d71b9d"><img src="https://i.gyazo.com/d9ef5111bd2410f11f5eccb5e3d71b9d.png" alt="Image from Gyazo" loading="lazy"></a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[中国疫情地图和全球疫情地图组件，一句话调用]]></title>
         <id>https://kukudexiaoxiaomaya.github.io/post/zhong-guo-yi-qing-di-tu-he-quan-qiu-yi-qing-di-tu-zu-jian-yi-ju-hua-diao-yong/</id>
