@@ -1,570 +1,122 @@
 <!DOCTYPE html>
-<html id="bg">
-
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8" />
-<!--
-    * @Theme Card
-    *
-    * @author admin@itjoker.cn
-    * @link https://blog.itjoker.cn
--->
-
-<title>
-    Moe Pony
-</title>
-<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-<meta name="author" content="Moe Pony">
-<meta name="description" content="每天都要萌萌滴">
-<meta name="keywords" content="">
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
-<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/js/Card/script.js"></script>
-<!--<script async src="https://kukudexiaoxiaomaya.github.io/media/js/script.min.js"></script>-->
-<!--<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/media/css/main.min.css" />-->
-<link rel="stylesheet" href="https://kukudexiaoxiaomaya.github.io/styles/main.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.26/CDN/css/Card/main.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/iconfont.css" />
-<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
-<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/js/love.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
-    <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
-    
-        
-            <script>
-                (function() {
-                    var bp = document.createElement('script');
-                    var curProtocol = window.location.protocol.split(':')[0];
-                    if (curProtocol === 'https') {
-                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-                    } else {
-                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-                    }
-                    var s = document.getElementsByTagName("script")[0];
-                    s.parentNode.insertBefore(bp, s);
-                })();
-            </script>
-            
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161212496-4"></script>
-                <script>
-                    window.dataLayer = window.dataLayer || [];
-
-                    function gtag() {
-                        dataLayer.push(arguments);
-                    }
-                    gtag('js', new Date());
-                    gtag('config', 'UA-161212496-4');
-                </script>
-                
-                    <style>
-                        .Card-certify {
-                            color: #0091e4 !important;
-                        }
-                        
-                        #foot {
-                            color: #000;
-                        }
-                        
-                        #menu-item:hover {
-                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-                            border-bottom-color: rgba(0, 0, 0, .6);
-                        }
-                        
-                        .gray {
-                            -webkit-filter: grayscale(100%);
-                            /* webkit */
-                            -moz-filter: grayscale(100%);
-                            /*firefox*/
-                            -ms-filter: grayscale(100%);
-                            /*ie9*/
-                            -o-filter: grayscale(100%);
-                            /*opera*/
-                            filter: grayscale(100%);
-                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
-                            filter: gray;
-                            /*ie9- */
-                        }
-                        
-                        .lite-item,
-                        #header {
-                            opacity: 1;
-                        }
-                        
-                        #span_btn:hover {
-                            transition: all .3s ease;
-                            color: #fff;
-                            background: #0092ee;
-                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
-                        }
-                        
-                        #span_btn {
-                            font-size: 14px;
-                        }
-                        
-                        .link_a:hover {
-                            margin-top: 10px;
-                            margin-bottom: 10px;
-                            color: #fff;
-                            border-left: 8px solid #0092eeee;
-                            padding: 5px;
-                            transition: all .3s ease;
-                        }
-                        
-                        html {
-                            width: 100%;
-                            height: 100%;
-                            background-attachment: fixed;
-                            background-repeat: no-repeat;
-                        }
-                    </style>
+<!-- 必要参数 -->
+<meta charset="utf-8"/>
+<title>TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪ | Moe Pony</title>
+<meta name="keywords" content="关键词"/>
+<meta name="description" content="简述"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://hexo.cupmoexpz.tk/media/css/mdui.min.css">
+<link rel="stylesheet" href="https://hexo.cupmoexpz.tk/media/css/modify.css">
+<link rel="stylesheet" href="https://hexo.cupmoexpz.tk/media/css/github-gist.min.css">
+<link rel="stylesheet" href="https://hexo.cupmoexpz.tk/media/css/railscasts.min.css">
 </head>
-
-<body>
-    <header id="header">
-    <div id="pc-menu">
-        <a id="menu-bar" class="Card Card-menu"></a>
-        <a id="menu-title" href="https://kukudexiaoxiaomaya.github.io">
-            Moe Pony
-        </a>
-        <nav id="menu-main" class="menu-main">
-            <ul>
-                
-                    <li id="menu-item" class="menu-item">
-                        <a href="/posts/">
-                            文章
-                        </a>
-                    </li>
-                    
-                    <li id="menu-item" class="menu-item">
-                        <a href="/tags">
-                            标签
-                        </a>
-                    </li>
-                    
-                    <li id="menu-item" class="menu-item">
-                        <a href="/archives">
-                            归档
-                        </a>
-                    </li>
-                    
-                    <li id="menu-item" class="menu-item">
-                        <a href="/friends/">
-                            伙伴们
-                        </a>
-                    </li>
-                    
-                    <li id="menu-item" class="menu-item">
-                        <a href="https://gdpan.moepony.workers.dev/">
-                            Cloud
-                        </a>
-                    </li>
-                    
-                    <li id="menu-item" class="menu-item">
-                        <a href="https://tlk.io/moeponychat">
-                            聊天室
-                        </a>
-                    </li>
-                    
-            </ul>
-        </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1587201121192" action="/search/index.html">
-            <i class="Card Card-search"></i>
-            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-        </form>
-    </div>
-    <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1587201121192" action="/search/index.html">
-            <i class="Card Card-search"></i>
-            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-        </form>
-        <nav class="menu">
-            <ul style="list-style: none;">
-                
-                    <li class="page_item page-item-2">
-                        <a href="/posts/">
-                            文章
-                        </a>
-                    </li>
-                    
-                    <li class="page_item page-item-2">
-                        <a href="/tags">
-                            标签
-                        </a>
-                    </li>
-                    
-                    <li class="page_item page-item-2">
-                        <a href="/archives">
-                            归档
-                        </a>
-                    </li>
-                    
-                    <li class="page_item page-item-2">
-                        <a href="/friends/">
-                            伙伴们
-                        </a>
-                    </li>
-                    
-                    <li class="page_item page-item-2">
-                        <a href="https://gdpan.moepony.workers.dev/">
-                            Cloud
-                        </a>
-                    </li>
-                    
-                    <li class="page_item page-item-2">
-                        <a href="https://tlk.io/moeponychat">
-                            聊天室
-                        </a>
-                    </li>
-                    
-            </ul>
-        </nav>
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+<header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <button class="mdui-btn mdui-btn-icon" id="menu" mdui-drawer="{target:'#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></button>
+            <a href="https://hexo.cupmoexpz.tk" class="mdui-typo-headline">Moe Pony</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
+        </div>
     </div>
 </header>
-        <div id="main">
-            <div id="main-part">
-                <div class="lite-item">
-                    <article class="post post-type real-post">
-                        <header class="post-type-header">
-                            
-                                <div class="thumbnail-link" style="background-image: url('https://telegram.org/img/t_logo.png')"></div>
-                                
-                                        <div class="thumbnail-shadow">
-                                            <h1 class="post-title">
-                                                TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪
-                                            </h1>
-                                            <div class="post-info">
-                                                <span class="post-category"><i class="Card Card-novel"></i>
-                                        
-                                            <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" rel="category">资源</a>
-                                            
-                                            <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" rel="category">软件</a>
-                                            
-                                    </span>&nbsp;•&nbsp;
-                                                <span class="post-view">
-                                        
-                                            <i class="Card Card-view"></i>&nbsp;
-                                            <span data-hk-page="current"> - </span>
-                                                
-                                                    </span>&nbsp;•&nbsp;
 
-                                                    <span class="post-readtime">阅读时间:
-                                            <a href="#">0.1分</a></span>
-                                                    <span class="post-edit"></span></div>
-                                        </div>
-                                        <div class="post-relative">
-                                            <img alt="Moe Pony" src="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1587201121192" srcset="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1587201121192" class="avatar avatar-100 photo" width="100" height="100">
-                                            <span class="post-type-author"><a href="https://kukudexiaoxiaomaya.github.io" title="由Moe Pony发布" rel="author">Moe Pony<i class="Card Card-certify"></i></a></span>
-                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2020-04-15</span>
-                                        </div>
-                        </header>
-                        <div class="post-main post-type-main">
-                            <div class="post-content">
-                                <div class="post-content-real">
-                                    <p>食用链接https://t.me/setlanguage/moewen<br>
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        <a href="/posts/" class="menu"><li class="mdui-list-item mdui-ripple">文章</li></a>
+        <a href="/tags" class="menu"><li class="mdui-list-item mdui-ripple">标签</li></a>
+        <a href="/archives" class="menu"><li class="mdui-list-item mdui-ripple">归档</li></a>
+        <a href="/friends/" class="menu"><li class="mdui-list-item mdui-ripple">伙伴们</li></a>
+        <a href="https://gdpan.moepony.workers.dev/" class="menu"><li class="mdui-list-item mdui-ripple">Cloud</li></a>
+        <a href="https://tlk.io/moeponychat" class="menu"><li class="mdui-list-item mdui-ripple">聊天室</li></a>
+        
+        <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread"><li class="mdui-list-item mdui-ripple">主题主页</li></a>
+    </ul>
+</nav>
+
+
+<main class="mdui-container mdui-typo mdui-m-t-2">
+    <section class="mdui-card">
+        
+        <div class="mdui-card-media">
+            <img src="https://telegram.org/img/t_logo.png">
+        </div>
+        
+        <div class="mdui-card-primary">
+            <div class="mdui-card-primary-title">TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪</div>
+            <div class="mdui-card-primary-subtitle">发布于 2020-04-15，包含标签 <a href="https://hexo.cupmoexpz.tk/tag/zy/" class="post-tags"># 资源</a><a href="https://hexo.cupmoexpz.tk/tag/rj/" class="post-tags"># 软件</a>。</div>
+        </div>
+        <div class="mdui-card-content"><p>食用链接https://t.me/setlanguage/moewen<br>
 维护进度<br>
 电脑:5<br>
 安卓:0<br>
 安卓X:0<br>
 MAC:0</p>
+</div>
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://hexo.cupmoexpz.tk/images/avatar.png">
+            <div class="mdui-card-header-title">Moe Pony</div>
+            <div class="mdui-card-header-subtitle">每天都要萌萌滴</div>
+        </div>
+    </section>
 
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="post-footer">
-                            <div class="post-copyright">
-                                作者:
-                                Moe Pony<br>永久链接:
-                                    <a href="https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/" title="TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪">
-                                        https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/
-                                    </a><br> 协议: MIT License
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <style>
-                    .prev:hover {
-                        color: #2d96bd;
-                        text-decoration: none;
-                        text-align: center;
-                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-                    }
-                    
-                    .next:hover {
-                        color: #2d96bd;
-                        text-decoration: none;
-                        text-align: center;
-                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-                    }
-                </style>
-                <div class="lite-item nearby-article">
-                    
-                        <div class="nearby-article-left" style="padding: 10px;">
-                            <a class="prev" rel="prev" href="https://kukudexiaoxiaomaya.github.io/post/gd-mian-fei/">
-                                <i class="fa fa-chevron-left"></i>
-                                GD免费团队盘
-                            </a>
-                        </div>
-                        
-                            
-                                <div class="nearby-article-right" style="padding: 10px;">
-                                    <a class="next" rel="next" href="https://kukudexiaoxiaomaya.github.io/post/2020415-shang-wu-bai-du-wang-pan-svip/">
-                                        2020/4/15上午百度网盘SVIP<i class="fa fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                                
-                </div>
-                <!--Share-->
-                <span style="margin-right:15px">
-    <i class="post-share"></i>
-    <span>&#x5206;&#x4EAB;:</span>
-                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/"><i class="fa fa-qrcode"></i></a>
-                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/&sharesource=qzone&title=TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪&pics=https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1587201121192&summary="><i class="fa fa-qq"></i></a>
-                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://kukudexiaoxiaomaya.github.io/post/tg-zhong-wen-yu-yan-bao-moe-wen-kai-shi-wei-hu-la-fo/&sharesource=weibo&title=TG中文语言包Moe文开始维护啦φ(≧ω≦*)♪ + " - " + &pic="https://kukudexiaoxiaomaya.github.io/images/avatar.png?v=1587201121192"><i class="fa fa-weibo "></i></a>
-                </span>
-                
-                    
-                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+      
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+<div id="gitalk-container"></div>
 
 <script>
-    var gitalk = new Gitalk({
-        clientID: 'f9ad04e7e6e89c81ee91',
-        clientSecret: 'ca96ecd7a8cc3e7f70443137a7d5baae7571c25a',
-        repo: 'kukudexiaoxiaomaya.github.io',
-        owner: 'kukudexiaoxiaomaya',
-        admin: ['kukudexiaoxiaomaya'],
-        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
-        distractionFreeMode: false // Facebook-like distraction free mode
-    })
 
-    gitalk.render('gitalk-container')
+  var gitalk = new Gitalk({
+    clientID: 'f9ad04e7e6e89c81ee91',
+    clientSecret: 'ca96ecd7a8cc3e7f70443137a7d5baae7571c25a',
+    repo: 'kukudexiaoxiaomaya.github.io',
+    owner: 'kukudexiaoxiaomaya',
+    admin: ['kukudexiaoxiaomaya'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
 </script>
-                            
-                                        
-                                            
-            </div>
-            <div id="sidebar">
-    <ul>
-        
-            <li class="lite-item">
-                <header class="lite-item-header">
-                    <h3 class="sidebar-default-icon lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
-                </header>
-                <div class="textwidget">
-                    <p>
-                        <b id="hitokoto"></b>
-                    </p>
-                </div>
-            </li>
+
             
-                <li class="lite-item">
-                    <header class="lite-item-header">
-                        <h3 class="sidebar-default-icon lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
-                    </header>
-                    <div class="textwidget">
-                        
-                            <a href="https://kukudexiaoxiaomaya.github.io/tag/zy/" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
-                                <i class="fa fa-tags" aria-hidden="true">资源</i>
-                            </a>
-                            
-                            <a href="https://kukudexiaoxiaomaya.github.io/tag/rj/" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
-                                <i class="fa fa-tags" aria-hidden="true">软件</i>
-                            </a>
-                            
-                            <a href="https://kukudexiaoxiaomaya.github.io/tag/jc/" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
-                                <i class="fa fa-tags" aria-hidden="true">教程</i>
-                            </a>
-                            
-                            <a href="https://kukudexiaoxiaomaya.github.io/tag/xw/" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
-                                <i class="fa fa-tags" aria-hidden="true">新闻</i>
-                            </a>
-                            
-                    </div>
-                </li>
-                
-                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
-                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-                    <div id="player"></div>
-                    
-                        <li class="lite-item">
-                            <header class="lite-item-header">
-                                <h3 class="sidebar-default-icon lite-item-title">
-                                    &#x1F3B5;&#x97F3;&#x4E50;
-                                </h3>
-                            </header>
-                            <div class="textwidget">
-                                <p>
-                                    <div id="player_box"></div>
-                                </p>
-                            </div>
-                        </li>
-                        
-                            <script>
-                                function LoadPlayer() {
-                                    var music_array = [];
-                                    
-                                    music_array.push({
-                                        name: '下山',
-                                        url: 'https://dl.kzwr.com/Down/fiVXZHVqaHdXZGVvaCU9JXNkcWJpbG9oYm9sdndiOCUvJUlvZGpRZHBoJT0lODM2NTQ2ZmQ5ZjU2ejM2PHlvMXBzNiUvJUlsb2hRZHBoJT0lMzM4O2IzODNlYjM4M2ZiOjU1ZGU1aWc2aTVkaTNkNDg0ZGc1aTU7NzM8ODxlZjsxcHM2JS8lVmtyelNkcWhvJT13dXhoLyVJbG9oT2hxandrJT01Ojo4ODw6LyVJbG9oTmh8JT0lWDg6M0ZNSVw2UjNcUDY4UVxGXEdVOFVLWSUvJU5ofFZsfWhIcXhwJT00NTsvJVZrZHV2Vmx9aEhxeHAlPTc0PDc2MzcvJUh7c2x1aGclPSU1MzUzMDM3MDQ8VzQ1PTg1PTM2MTw1Mzw7PDwuMzs9MzMlLyVYbGclPTY2ODk2LyVPaHlobyU9NMKA.mp3',
-                                        artist: '要不要买菜',
-                                        cover: 'https://p3.music.126.net/Aj4X1kpV-C2LLi-e_Xhgvg==/109951164499744148.jpg?param=300y300',
-                                    });
-                                    
-                                    
-                                    const ap = new APlayer({
-                                        container: document.getElementById('player_box'),
-                                        audio: music_array
-                                    });
-                                    
-                                }
-                                LoadPlayer();
-                            </script>
-                            
-                                
-                                    
-                                        
-                                            <li class="lite-item">
-                                                <header class="lite-item-header">
-                                                    <h3 class="sidebar-default-icon lite-item-title">
-                                                        破病毒
-                                                    </h3>
-                                                </header>
-                                                <div class="textwidget">
-                                                    <div id="textwidget-box" style="width:100%; height:auto;">
-                                                        <iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                            <li class="lite-item">
-                                                <header class="lite-item-header">
-                                                    <h3 class="sidebar-default-icon lite-item-title">
-                                                        天气
-                                                    </h3>
-                                                </header>
-                                                <div class="textwidget">
-                                                    <div id="textwidget-box" style="width:100%; height:auto;">
-                                                        <iframe width="300" height="450" src="https://embed.windy.com/embed2.html?lat=41.293&lon=86.590&zoom=3&level=surface&overlay=wind&menu=&message=true&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=36.059&detailLon=88.453&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                                
-                                                    <li class="lite-item">
-                                                        <header class="lite-item-header">
-                                                            <h3 class="sidebar-default-icon lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
-                                                        </header>
-                                                        <div class="textwidget">
-                                                            
-                                                                
-                                                                    <p onclick="javascript:top.location='https://blog.itjoker.cn'"><span class="link_a"><a href="https://blog.itjoker.cn" alt="ITJoker ">ITJoker -ITJoker&#39;s Blog</a></span></p>
 
-                                                                    
-                                                                    <p onclick="javascript:top.location='http://www.toje.work'"><span class="link_a"><a href="http://www.toje.work" alt="草方块 ">草方块 -草方块滴小窝</a></span></p>
+            
+      
+</main>
 
-                                                                    
-                                                                    <p onclick="javascript:top.location='https://www.umr2333.com/'"><span class="link_a"><a href="https://www.umr2333.com/" alt="土间被活埋の小破站 V2.4 ">土间被活埋の小破站 V2.4 -B站某沙雕季更滴UP主</a></span></p>
+<nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+    <a href="https://hexo.cupmoexpz.tk/post/gd-mian-fei/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>GD免费团队盘</a>
+    <a href="https://hexo.cupmoexpz.tk/post/2020415-shang-wu-bai-du-wang-pan-svip/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">2020/4/15上午百度网盘SVIP<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+</nav>
 
-                                                                    
-                                                                    <p onclick="javascript:top.location='https://blog.fsky7.com/'"><span class="link_a"><a href="https://blog.fsky7.com/" alt="FlyingSky&#39;s Blog ">FlyingSky&#39;s Blog -每个人的裂痕，最后都会变成故事的花纹。</a></span></p>
-
-                                                                    
-                                                                    <p onclick="javascript:top.location='https://blog.blw.moe'"><span class="link_a"><a href="https://blog.blw.moe" alt="派兹的小站 ">派兹的小站 -莓办法，银不了，尽梨了</a></span></p>
-
-                                                                    
-                                                                    <p onclick="javascript:top.location='https://jkgblog.com'"><span class="link_a"><a href="https://jkgblog.com" alt="Escher’s Log ">Escher’s Log -日常杂记、工具分享。</a></span></p>
-
-                                                                    
-                                                                    <p onclick="javascript:top.location='https://ftm.moe/'"><span class="link_a"><a href="https://ftm.moe/" alt="清浅の碎碎念 ">清浅の碎碎念 -在漫长的痛苦中度过短暂的一生</a></span></p>
-
-                                                                    
-                                                                    <p onclick="javascript:top.location='https://blog.sanqian.me/'"><span class="link_a"><a href="https://blog.sanqian.me/" alt="Sanqian&#39;s Blog ">Sanqian&#39;s Blog -朝霞薄雾起 , 诗语云上烟</a></span></p>
-
-                                                                    
-                                                                        
-                                                        </div>
-                                                    </li>
-    </ul>
+<div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="fab283ad-01c9-4e61-b507-a4fbac08c533";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </div>
-        </div>
+
+<script src="https://hexo.cupmoexpz.tk/media/js/jquery.min.js"></script>
+<script src="https://hexo.cupmoexpz.tk/media/js/mdui.min.js"></script>
+<script src="https://hexo.cupmoexpz.tk/media/js/modify.js"></script>
+<script src="https://hexo.cupmoexpz.tk/media/js/highlight.min.js"></script>
+<script src="https://hexo.cupmoexpz.tk/media/js/lightense.min.js"></script>
+<script>
+// 初始化-高亮代码
+hljs.initHighlightingOnLoad();
+// 初始化-文章图片放大
+window.addEventListener('load', function () {
+    Lightense('#post .mdui-card-content img');
+}, false);
+</script>
 
 </body>
-<footer id="foot">
-    <a id="back-to-top" href="#"><i class="Card Card-top"></i></a>
-    <div class="copyright">
-        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="fab283ad-01c9-4e61-b507-a4fbac08c533";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-            
-
-                <div style="font-size:12px">
-                    
-                                已经建站 <b id='build_time'></b>
-                </div>
-                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
-                <script>
-                    setInterval(show_date_time, 1000, '2020-4-1');
-                </script>
-                
-                    
-                            &#x7248;&#x6743;&#x6240;&#x6709; &copy;
-                            <span class="my-face"><script>
-                        var date = new Date();
-                        document.write("" + date.getFullYear());
-                    </script>
-                   </span>
-                            <a href="https://kukudexiaoxiaomaya.github.io">
-                                Moe Pony
-                            </a>&nbsp;|&nbsp;Powered by
-                            <a href="/post/shi-yong-gridea5-fen-chuang-jian-mian-fei-github-bo-ke/" target="_blank">
-                                Gridea
-                            </a>
-    </div>
-    <div id='UpdateTime' style='display:none'>
-        1587201121192
-    </div>
-    <script>
-        var titleTime;
-        document.addEventListener("visibilitychange", function() {
-            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
-                document.title = OriginTitile
-            }, 2E3))
-        });
-        var OriginTitile = document.title;
-        
-        App.hitokoto();
-        
-        App.outputlog();
-        var logo = '%cMoe Pony\'%cBlog';
-        console.info(
-            logo,
-            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
-        );
-    </script>
-</footer>
-    <script>
-        renderMathInElement(document.body, {
-            delimiters: [{
-                left: "$$",
-                right: "$$",
-                display: true
-            }, {
-                left: "$",
-                right: "$",
-                display: false
-            }]
-        });
-    </script>
-
 </html>
